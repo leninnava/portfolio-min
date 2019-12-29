@@ -38,16 +38,27 @@ html {
 
   /* Basic styling */ 
 
+  nav {
+    display: none;
+  }
+
+  nav > * {
+    display: none;
+  }
+
   /* Implement modular typography */
 
   body {
     background: var(--background--gradient);
     color: #fff;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Fira Mono", monospace;
     line-height: 1.8rem;
-    
     /* flex: 1; Only works on the child elements */
     
+  }
+
+  main {
+    padding: 0.9rem;
   }
 
   
@@ -60,13 +71,8 @@ html {
   
   /* Information */
 
-  .information {
+  .welcome-section {
     height: 100vh;
-    padding: 1rem 1rem 0 1rem;
-  }
-
-  .projects {
-    padding: 1rem 1rem 0 1rem;
   }
 
   .presentation-card {
@@ -80,7 +86,7 @@ html {
     max-width: 60%;
   
     height: auto;
-    border: solid 0.4rem;
+    border: solid 0.2rem;
   }
 
   .presentation-text {
@@ -131,7 +137,7 @@ html {
     margin-bottom: 1.8rem;
   }
 
-  .element-box {
+  .project-box {
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -139,7 +145,7 @@ html {
 
   .element::after {
     transition: all 0.3s;
-    content: "element text";
+    content: "";
     opacity: 0;
     display: block;
     background: #2a6fdb;
@@ -152,10 +158,11 @@ html {
     transform: translateX(0);
   }
 
-  .element {
+  .project-tile {
     background: white;
     height: 10rem;
-    width: 14rem;
+    width: 15rem;
+    
     margin-bottom: 0.9rem;
   }
 
@@ -184,3 +191,10 @@ html {
     background: #172c4f;
   }
  
+
+  /* Media queries */
+
+  @media (min-width: 768px) {
+    
+
+  }
