@@ -7,15 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title>Leno's Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
+    <nav id="navbar">
+        <a href="#"></a>
+    </nav>
     <main class="flex">
-        <section class="information flex">
+        <section class="welcome-section flex" id="welcome-section">
             <div class="presentation-card flex">
                 <div class="presentation-image flex">
-                    <img src="img/2018-09-15-142635.jpg" alt="Photo of me">
+                    <img src="img/2018-08-28-164507_3.jpg" alt="Photo of me">
                 </div>
                 <div class="presentation-text">
                     <h1>Lenin A. Nava</h1>
@@ -23,7 +26,7 @@
                 </div>
                 <div class="presentation-paragraph">
                     <p>
-                        I like minimalism, RPGs and Twin Peaks. The owls are not what they seem.
+                        I like minimalism, RPGs and Twin Peaks. I may or may not live in a cave.
                     </p>
                 </div>
             </div>
@@ -67,7 +70,8 @@
                        c-0.503,3.758-5.782,4.131-6.819,0.494l-14.607-51.325C89.253,166.16,91.691,159.907,96.869,156.711z" />
                         </g>
                     </svg></a>
-                <a href=""><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                    <a href="https://github.com/leninnava" target="_blank" id="profile-link">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
                         style="enable-background:new 0 0 512 512;" xml:space="preserve">
                         <g>
@@ -88,17 +92,18 @@
         </section>
         <section class="projects flex">
             <h2>Stuff I've done</h2>
-            <div class="element-box">
-                <div class="element project1"></div>
-                <div class="element project2"></div>
-                <div class="element project3"></div>
-                <div class="element project4"></div>
-            </div>
+            <section class="project-box" id="projects">
+                <div class="project-tile project1"><a href="https://github.com/leninnava/Cow-Products_landing-page" target="_blank">A landing page about cows.</a></div>
+                <div class="project-tile project2"></div>
+                <div class="project-tile project3"></div>
+                <div class="project-tile project4"></div>
+            </section>
         </section>
     </main>
-    <footer>
-
+    <footer class="flex">
+      <h3>Yeah, my contact information is not on the footer.</h3>
+      <h2>Go to the <a href="#information">top.</a></h2>
     </footer>
 </body>
-
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
