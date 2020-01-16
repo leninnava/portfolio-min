@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A minimalist portfolio.",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "gulp-postcss": "^8.0.0",
+    "postcss-uncss": "^0.17.0",
+    "uncss": "^0.17.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leninnava/portfolio-min.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leninnava/portfolio-min/issues"
+  },
+  "homepage": "https://github.com/leninnava/portfolio-min#readme"
+}
